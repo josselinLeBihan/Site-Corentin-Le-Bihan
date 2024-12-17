@@ -28,17 +28,27 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
       <div class="header--content">
         <h1 class="logo">Corentin Le Bihan</h1>
         <div class="navigation">
-          <div class="navigation__item">Accueil</div>
-          <div class="navigation__item">Recherche</div>
-          <div class="navigation__item">Enseignement</div>
-          <div class="navigation__item">CV</div>
-          <div class="navigation__item">Contact</div>
+          <div class="navigation__item">
+            <a class="link" href="#hero">Accueil</a>
+          </div>
+          <div class="navigation__item">
+            <a class="link" href="#Research">Recherche</a>
+          </div>
+          <div class="navigation__item">
+            <a class="link" href="#Enseignement">Enseignement</a>
+          </div>
+          <div class="navigation__item">
+            <a class="link" href="Assets/Documents/LE-BIHAN-CV.pdf" target="_blank">CV</a>
+          </div>
+          <div class="navigation__item">
+            <a class="link" href=mailto:corentin.le.bihan@ulb.be?subject=Prise de contact&body=Bonjour, je souhaite vous contacter..." target="_blank">Contact</a>
+          </div>
         </div>
       </div>
     </header>
 
     <main>
-      <div class="hero">
+      <div class="hero" id="hero">
         <h1>Biographie</h1>
 
         <div class="hero-section">
@@ -46,8 +56,8 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
             <div class="info-section__image">
               <img
                 class="info-section__image--profile"
-                src="/path/to/your/image.jpg"
                 alt="Portrait de Corentin Le Bihan"
+                src="Assets/Images/Photo-Corentin.jpg"
               />
             </div>
             <div class="info-section__text">
@@ -56,21 +66,20 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
                 alt="Logo ULB"
                 class="logo-ulb"
               />
-              <p class="text__bold">Post doc</p>
             </div>
           </div>
 
           <div class="content-section">
-            <h2 class="info-section__name">Corentin Le Bihan</h2>
+            <h2 class="info-section__name">Post Doc</h2>
 
             <div class="bio-section">
               <p>
                 Since October 2023 I have a postdoctoral position in Université
                 Libre de Bruxelles (under the supervision of
-                <a href="https://mitia.duerinckx.web.ulb.be/">Mitia Duerinckx</a
+                <a href="https://mitia.duerinckx.web.ulb.be/" target="_blank">Mitia Duerinckx</a
                 >). Before I was a PhD Student at ÉNS DE LYON (under the
                 supervision of
-                <a href="https://sergiosimonella.wordpress.com/"
+                <a href="https://sergiosimonella.wordpress.com/" target="_blank"
                   >Sergio Simonella</a
                 >
                 and Laure Saint-Raymond).
@@ -82,16 +91,16 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
                 <h3>Interest</h3>
                 <ul class="presentation-section__list">
                   <li class="presentation-section__list-item">
-                    Équation au dérivée partielle
+                    Partial differential equation
                   </li>
                   <li class="presentation-section__list-item">
-                    Théorie cinétique
+                    Kinetic theory
                   </li>
                   <li class="presentation-section__list-item">
-                    Limite d'échelle
+                    Equation of Boltzmann, Landau and Lenard Balescu
                   </li>
                   <li class="presentation-section__list-item">
-                    Équation de Boltzmann et de Landau
+                    Large particle system
                   </li>
                 </ul>
               </div>
@@ -99,10 +108,11 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
                 <h3>Éducation</h3>
                 <ul class="presentation-section__list">
                   <li class="presentation-section__list-item">
-                    Équation au dérivée partielle
+                    Bachelor and master degree at the ÉNS de Lyon
                   </li>
                   <li class="presentation-section__list-item">
-                    Théorie cinétique
+                    PhD under the supervision of Sergio Simonella and Laure
+                    Saint Raymond
                   </li>
                   <li class="presentation-section__list-item">
                     Limite d'échelle
@@ -151,54 +161,64 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
           </ul>
         </div>
       </div>
-      <div class="part" style="background: #fbf9f7">
-        <div class="content">
+      <div class="part" style="background: #fbf9f7" ">
+        <div class="content" id="Research">
           <h1>Research</h1>
 
           <div class="research__section">
             <h2>Publications</h2>
             <div class="section">
               <div class="section__content">
-                <p class="text__bold">
-                  Long time validity of the linearized Boltzmann equation for
-                  hard spheres: a proof without billiard theory
-                </p>
-                <p>Submitted to: (2022)</p>
+                <p class="text__bold">2024</p>
+                <a
+                  href="Assets/Documents/Publication/LeBihan-24-LinearizedBoltzmannAndLandau.pdf"
+                  target="_blank"
+                >
+                  Long time validity of the linearized Boltzmann uncut off and
+                  the linearized Landau equations from the Newt on Law
+                </a>
               </div>
 
               <div class="section__content">
-                <p class="text__bold">
+                <p class="text__bold">2023</p>
+                <a
+                  href="Assets/Documents/Publication/LeBihan-Winter-23-GrazingCollision.pdf"
+                  target="_blank"
+                >
                   The grazing collisions limit from the linearized Boltzmann
-                  equation to the Landau equation for short-range potentials
-                </p>
-                <div class="section__info">
-                  <p>Collaboration with: R. Winter</p>
-                  <p>Submitted to: Kinetic and Related Models (2022)</p>
-                </div>
+                  equation to the Landau equation for short range potentials,
+                  with R. Winter (Kinetic and Related Models, 16, No. 5, 654 675
+                  (2023))
+                </a>
               </div>
-
               <div class="section__content">
-                <p class="text__bold">
-                  Boltzmann-Grad limit of a hard sphere system in a box with
-                  isotropic boundary conditions
-                </p>
-                <p>
-                  Submitted to: Discrete and Continuous Dynamical Systems 42
-                  (2022)
-                </p>
-              </div>
-
-              <div class="section__content">
-                <p class="text__bold">
-                  On essential-selfadjointness of differential operators on
-                  closed manifolds
-                </p>
+                <p class="text__bold">2022</p>
                 <div class="section__info">
-                  <p>Colaboration with : Y.Colin de Verdière</p>
-                  <p>
-                    Submitted to : Annales de la faculté des sciences de
-                    Toulouse (2020)
-                  </p>
+                  <a
+                    href="Assets/Documents/Publication/LeBihan-22-BoltzmannInABox.pdf"
+                    target="_blank"
+                  >
+                    Long time validity of the linearized Boltzmann equation for
+                    hard spheres: a proof without billiard theory, (accepted in
+                    Archive for Rational Mechanics and Analysis)
+                  </a>
+                  <a
+                    href="Assets/Documents/Publication/LeBihan-22-LinearizedBoltzmann.pdf"
+                    target="_blank"
+                  >
+                    Boltzmann Grad limit of a hard sphere system in a box with
+                    isotropic boundary conditions, (Discrete and Continuous
+                    Dynamical Systems 42 , No. 4, 1903 1932)
+                  </a>
+                  <a
+                    href="Assets/Documents/Publication/LeBihan-Winter-23-GrazingCollision.pdf"
+                    target="_blank"
+                  >
+                    On essential selfadjointness of differential operators on
+                    closed manifolds, with Y.Colin de Ve rdière (Annales de la
+                    faculté des sciences de Toulouse, Math. (6) 31, No. 5, 1287
+                    1302 (
+                  </a>
                 </div>
               </div>
             </div>
@@ -207,123 +227,135 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
             <h2>Research talk</h2>
             <div class="section">
               <div class="section__content">
-                <p class="text__bold">
-                  Juanary 2022 : seminario di Fisica Matematica (Sapienza
-                  Università di Roma)
-                </p>
+                <p class="text__bold">March 2023</p>
                 <p>
-                  Dynamical correlation of the Gibbs measure of a gas in low
-                  density scaling,
+                  Conference "Sc aling limits and generalized hydrodynamics",
+                  (GSSI, L'Aquila)
                 </p>
               </div>
 
               <div class="section__content">
-                <p class="text__bold">
-                  November 2022: Oberseminar Analysis (University of Bonn)
-                </p>
+                <p class="text__bold">Juanary 2023</p>
                 <p>
-                  Dynamical correlation of the Gibbs measure of a gas in low
-                  density scaling
+                  Seminario di Fisica Matematica (Sapienza Università di Roma)
                 </p>
               </div>
 
               <div class="section__content">
-                <p class="text__bold">
-                  June 2022 : PhD Students Seminar, (ENS Lyon)
-                </p>
-                <p>
-                  Dynamical correlation of the Gibbs measure of a gas in low
-                  density scaling
-                </p>
+                <p class="text__bold">June 2022</p>
+                <p>PhD Students Seminar, (ENS Lyon)</p>
               </div>
 
               <div class="section__content">
-                <p class="text__bold">
-                  October 2020 : Séminaire compréhensible, Institue Fourrier
-                  (Grenoble)
-                </p>
-                <p>How to model a gas in a box</p>
+                <p class="text__bold">November 2022</p>
+                <p>Oberseminar Analysis (University of Bonn)</p>
               </div>
               <div class="section__content">
-                <p class="text__bold">
-                  June 2021 : team seminar at Basel University
-                </p>
-                <p>
-                  Boltzmann-Grad limit of a hard sphere system in a box with
-                  diffusive boundary conditions
-                </p>
+                <p class="text__bold">June 2022</p>
+                <p>PhD Students Seminar, (ENS Lyon)</p>
+              </div>
+              <div class="section__content">
+                <p class="text__bold">June 2021</p>
+                <p>Team seminar at Basel University</p>
+              </div>
+              <div class="section__content">
+                <p class="text__bold">October 2020</p>
+                <p>Séminaire compréhensible, Institue Fourrier (Grenoble)</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="part" style="background: #f8f5f2">
-        <div class="content">
+      <div class="part" style="background: #f8f5f2" >
+        <div class="content" id="Enseignement">
           <h1>Enseignement</h1>
           <div class="enseignements">
-            <div class="enseignement__section">
-              <h2>2020 - 2023 à l’ENS Lyon :</h2>
+            <h2>2020 - 2023 à l’ENS Lyon :</h2>
+            <div class="section__content">
+              <a class="text__bold">
+                M1 Analyse avancée TD Cours assurés par Laure Saint Raymond
+                (Automne 2020)
+              </a>
+            </div>
+            <div class="section__content">
               <p class="text__bold">
-                M1 - Analyse avancée TD - Cours assurés par N. jtjd
+                Cours et TD d'analyse pour l'agrégation (automne 2022)
               </p>
+              <div class="section__info">
+                <a
+                  href="Assets/Documents/Enseignement/TD agreg/Evn, Banach et Baire.pdf"
+                  target="_blank"
+                >
+                  TD Evn, Baire et Banach
+                </a>
+                <a
+                  href="Assets/Documents/Enseignement/TD agreg/distributions.pdf"
+                  target="_blank"
+                >
+                  Distributions
+                </a>
+                <a href="Assets/Documents/Enseignement/TD agreg/convexite.pdf"
+                target="_blank">
+                  Convexité
+                </a>
+                <a href="Assets/Documents/Enseignement/TD agreg/edo1.pdf"
+                target="_blank">
+                  Rudiments d’EDO 1
+                </a>
+                <a href="Assets/Documents/Enseignement/TD agreg/edo2.pdf"
+                target="_blank">
+                  Rudiments d’EDO 2
+                </a>
+                <a href="Assets/Documents/Enseignement/TD agreg/edo3.pdf"
+                target="_blank">
+                  Rudiments d’EDO 3
+                </a>
+              </div>
             </div>
-            <div class="enseignement__section">
-              <p class="text__bold">Colle en CPES</p>
-            </div>
-            <div class="enseignement__section">
-              <div class="section">
-                <p class="text__bold">Colle en CPES</p>
-                <p class="text__bold">
-                  TD Analyse avancée 2021-2022, cours de Laure Saint Raymond, TD
-                  avec Arthur Marly
-                </p>
-
-                <div class="section__content">
-                  <p class="text__bold">
-                    TD Analyse avancée 2021-2022, cours de Julien Vovelle, TD
-                    avec Paul Alphonse
-                  </p>
-                  <div class="section__info--columns">
-                    <div class="info">
-                      <p>
-                        TD 1: Topology issues in product spaces and Banach
-                        spaces
-                      </p>
-                      <p>TD 2: L p compactness and Banach spaces</p>
-                      <p>
-                        TD 3: Hahn-Banach theorem and locally convex topological
-                        vector spaces
-                      </p>
-                      <p>
-                        TD 4: Geometric Hahn-Banach theorem and Fréchet spaces
-                      </p>
-                      <p>TD 5: Weak topology</p>
-                      <p>TD 6: Weak-∗ topology</p>
-                    </div>
-                    <div class="info">
-                      <p>TD 7: Reflexivity</p>
-                      <p>TD 8: Distributions</p>
-                      <p>TD 9: Convolution of distributions</p>
-                      <p>TD 10: Tempered distribution</p>
-                      <p>TD 11: Sobolev spaces</p>
-                      <p>TD 12: Sobolev spaces and PDEss</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="section__content">
-                  <p class="text__bold">
-                    TD Analyse avancée 2021-2022, cours de Julien Vovelle, TD
-                    avec Paul Alphonse
-                  </p>
-                  <div class="section__info--columns">
-                    <p>TD Evn, Baire et Banach</p>
-                    <p>Distributions</p>
-                    <p>Convexité</p>
-                    <p>Rudiments d’EDO 1</p>
-                    <p>Rudiments d’EDO 2</p>
-                    <p>Rudiments d’EDO 3</p>
-                  </div>
-                </div>
+            <div class="section__content">
+              <p class="text__bold">
+                M1 Analyse avancée TD Cours assurés par Julien Vovelle (Automne
+                2021)
+              </p>
+              <div class="section__info">
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD1.pdf"
+                target="_blank">
+                  TD 1: Topology issues in product spaces and Banach spaces
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD2.pdf" target="_blank">
+                  TD 2: L p compactness and Banach spaces
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD3.pdf" target="_blank">
+                  TD 3: Hahn Banach theorem and locally convex topological
+                  vector spaces
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD4.pdf" target="_blank">
+                  TD 4: Geometric Hahn Banach theorem and Fréchet spaces
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD5.pdf" target="_blank">
+                  TD 5: Weak topology
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD6.pdf" target="_blank">
+                  TD 6: Weak --∗ topology
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD7.pdf" target="_blank">
+                  TD 7: Reflexivity
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD8.pdf" target="_blank">
+                  TD 8: Distributions
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD9.pdf" target="_blank">
+                  TD 9: Convolution of distributions
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD10.pdf" target="_blank">
+                  TD 10: Tempered distribution
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD11.pdf" target="_blank">
+                  TD 11: Sobolev spaces
+                </a>
+                <a href="Assets/Documents/Enseignement/AnalyseM1/TD12.pdf" target="_blank">
+                  TD 12: Sobolev spaces and PDEss
+                </a>
               </div>
             </div>
           </div>
@@ -331,8 +363,12 @@ Fluid, Fluids, Analysis, Kinetic, équations, dérivées, partielles, fluides, m
       </div>
     </main>
 
-    <footer>Corentin Le Bihan - Enseignants chercheur</footer>
+    <footer>
+      <div class="section__info">
+        <a style="color: #f8f5f2">Corentin Le Bihan Post doctorant à l’ULB</a>
+        <a style="color: #f8f5f2">corentin.le.bihan@ulb.be</a>
+      </div>
+    </footer>
 
-    <script src="/Assets/Js/main.js"></script>
   </body>
 </html>
